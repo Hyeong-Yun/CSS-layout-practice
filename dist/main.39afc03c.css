@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Comic Neue", cursive;
+  background-color: #F0F0F0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #F0F0F0;
+  width: 40%;
+  height: 100%;
+  padding: 10vh 0 0 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #DC433A;
+}
+header h1 {
+  margin-bottom: 20px;
+  font-size: 65px;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+header h3 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  letter-spacing: 1.1px;
+}
+header h3, header p {
+  width: 70%;
+  text-align: justify;
+  line-height: 1.2;
+}
+header p {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+header nav {
+  width: 80%;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.5;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1.5px solid black;
+}
+header nav ul li:hover {
+  opacity: 1;
+}
+
+main {
+  height: 500vh;
+  background-color: #DC433A;
+  padding-left: 33%;
+}
+main .movie {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #DC433A 10%, #DC433A 90%, rgba(0, 0, 0, 0.1));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+main .movie .wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+main .movie .wrapper .movie_header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+main .movie .wrapper .movie_header h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+main .movie .wrapper .movie_header h5 {
+  letter-spacing: 3 px;
+}
+main .movie img {
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
